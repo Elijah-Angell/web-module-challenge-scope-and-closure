@@ -28,9 +28,9 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
-  
+    counter 1 is block while 2 is scope
   2. Which of the two uses a closure? How can you tell?
-  
+      count uses a closure 
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
 */
@@ -142,11 +142,23 @@ Use the scoreboard function below to do the following:
 ]  
   */
 
-function scoreboard(/* CODE HERE */) {
-  /* CODE HERE */
-}
+function scoreboard(inningCB) {}
+//   const inning=[9];
+//   let Home = 0;
+//   let Away = 0;
 
+//   for(let i = 0;i < 3; i++){
+//     const currentScore = 
+//     inningCB(getInningScoreCB)
+//     Home = Home + currentScore.Home
+//     Away = Away + currentScore.Away
+//     inning.push(`Period ${i + 1}: Away ${currentScore.Away} - Home ${currentScore.Home}`);
 
+//   }
+//   return inning
+// }
+
+// console.log(scoreboard(getInningScore)
 
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
